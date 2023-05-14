@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.andr4.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:3:5-79
+11-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:3:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:4:5-80
+12-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:4:22-78
+13
+14    <application
+14-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:5:5-15:19
+15        android:allowBackup="false"
+15-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:6:13-40
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\andr4\.gradle\caches\transforms-3\3bb97aea57769450741008ffa0465983\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:supportsRtl="true"
+19-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:7:13-39
+20        android:testOnly="true"
+21        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+21-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:8:13-69
+22        <activity
+22-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:9:13-14:20
+23            android:name="me.andr4.android.MainActivity"
+23-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:9:23-51
+24            android:exported="true" >
+24-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:9:52-75
+25            <intent-filter>
+25-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:10:13-13:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:11:17-68
+26-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:11:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:12:17-76
+28-->C:\Users\andr4\IdeaProjects\untitled1\android\src\main\AndroidManifest.xml:12:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:26:9-34:20
+33            android:name="androidx.startup.InitializationProvider"
+33-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:27:13-67
+34            android:authorities="me.andr4.android.androidx-startup"
+34-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:28:13-68
+35            android:exported="false" >
+35-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:29:13-37
+36            <meta-data
+36-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:31:13-33:52
+37                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+37-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:32:17-85
+38                android:value="androidx.startup" />
+38-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:33:17-49
+39        </provider>
+40
+41        <receiver
+41-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:36:9-45:20
+42            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+42-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:37:13-76
+43            android:directBootAware="false"
+43-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:38:13-44
+44            android:enabled="true"
+44-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:39:13-35
+45            android:exported="true"
+45-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:40:13-36
+46            android:permission="android.permission.DUMP" >
+46-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:41:13-57
+47            <intent-filter>
+47-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:42:13-44:29
+48                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+48-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:43:17-91
+48-->[androidx.profileinstaller:profileinstaller:1.1.0-beta02] C:\Users\andr4\.gradle\caches\transforms-3\df4cf325882a08d7602141e9358d1fae\transformed\profileinstaller-1.1.0-beta02\AndroidManifest.xml:43:25-88
+49            </intent-filter>
+50        </receiver>
+51    </application>
+52
+53</manifest>

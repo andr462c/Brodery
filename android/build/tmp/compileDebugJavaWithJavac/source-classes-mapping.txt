@@ -1,0 +1,2 @@
+me/andr4/android/BuildConfig.java
+ me.andr4.android.BuildConfig

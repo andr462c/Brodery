@@ -1,0 +1,2 @@
+me/andr4/common/BuildConfig.java
+ me.andr4.common.BuildConfig
